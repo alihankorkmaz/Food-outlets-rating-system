@@ -1,0 +1,14 @@
+To compile the project:
+mvn compile
+
+To run unit tests:
+mvn test
+
+To package the application into a JAR:
+mvn package
+
+To run the Swing application with the main class:
+mvn exec:java -Dexec.mainClass="com.food.rating.system.main.MainApp"
+
+OR after packaging:
+java -jar target/FoodOutletsRatingSystem-1.0-SNAPSHOT.jar
